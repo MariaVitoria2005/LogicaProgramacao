@@ -1,0 +1,51 @@
+.lista-nav{
+    display: flex;/*os elementos Dentro do Grupo Pai*/
+    justify-content:space-around;/*o espaçamento entre os elemenos*/
+    list-style: none;/*Tira a Decoração de Itens da Lista*/
+    font-size: 20px;/*Altera a tamanho do texto*/
+    font-weight: bold;/*altera da letra*/
+    color: white;/*Alterar a cor do texto*/
+    padding: 10px 0px;/*Colocar espaçamento interno*/
+    margin: 0px;/*Retirar os espaçamento externos*/
+    align-items:center;/*centralizar os elementos*/
+
+}
+
+.nav{
+    background-color: rgb(0, 55, 255);/*acor do fundo*/
+}
+
+html{
+    background-color:white;/*a cor do Fundo*/
+    height: 100%;/*Define a altura da página */
+}
+
+body{
+    margin: 0px;/* o espaçamento externo*/
+    justify-content:space-between;/**/
+    height: 100%;/*Define a altura da página*/
+    display:flex;/*os elementos Dentro do Grupo Pai*/
+    flex-direction:column;/* ajeitar a coluna*/
+    text-align: center;/* centralizar a tela*/
+
+}
+
+.titulo-site{
+    text-align: center;/*Centraliza o texto na página*/
+}
+footer{
+    background-color: rgb(0, 55, 255);/*Define a cor do Fundo*/  
+    text-align: center;/*Centraliza o texto na página*/
+    color: white;/*Alterar a cor da fonte*/
+    padding: 10px 0px;/*Colocar espaçamento interno*/ 
+}
+.imagens{
+    display: flex;/*colocar imagem um ao lado da outra*/
+    justify-content:space-between;
+    
+}
+
+a{
+    text-decoration:none;/*tirar o subilhiado*/
+    color: rgb(255, 255, 255);/*cor da fonte pai*/
+}

@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    margin: 10px;/* o espaçamento externo*/
+    justify-content:space-around;/**/
+    height: 100%;/*Define a altura da página*/
+    flex-direction:column;/**/
+}
+
+
